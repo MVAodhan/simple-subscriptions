@@ -1,0 +1,89 @@
+input{
+    background-color: transparent;
+    height: 40px;
+    width: 80%;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    height: 40px;
+}
+#app {
+    height: 100vh;
+    text-align: center;
+}
+
+#container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#main-container{
+
+    min-height: 60vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px
+}
+
+#subs-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#sub-inputs{
+    display:flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+#input-labels{
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#sub-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+#card{
+    height: 100px;
+    width: 95%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+}
+
+#card-segment{
+    width: 50%;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-segment-two{
+    width: 50%;
+    height: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
